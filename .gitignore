@@ -1,1 +1,56 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
+.venv/
+ENV/
+env/
+/venv
+/.venv
+
+# VS Code settings (if you're using it)
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local configs
+*.log
+*.env
+.env.local
+*.sqlite3
+
+# macOS + Linux junk
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# mypy / pylint / etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
